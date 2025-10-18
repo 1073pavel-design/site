@@ -1,5 +1,4 @@
-[центр_финансовых_решений_сайт_index.html](https://github.com/user-attachments/files/22983208/_._._._index.html)
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -77,6 +76,46 @@
   </style>
 </head>
 <body>
+<!-- 🔹 Шапка сайта -->
+<header style="
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+">
+  <div style="display:flex;align-items:center;gap:10px;">
+    <div style="
+      background-color:#1E40AF;
+      color:white;
+      font-weight:700;
+      font-size:18px;
+      padding:6px 12px;
+      border-radius:10px;
+      letter-spacing:0.5px;
+    ">CFR</div>
+    <span style="font-size:18px;font-weight:600;color:#1E3A8A;">
+      Центр Финансовых Решений
+    </span>
+  </div>
+
+  <nav style="display:flex;gap:25px;">
+    <a href="#services" style="color:#1E3A8A;text-decoration:none;font-weight:500;">Услуги</a>
+    <a href="#cases" style="color:#1E3A8A;text-decoration:none;font-weight:500;">Кейсы</a>
+    <a href="#contacts" style="color:#1E3A8A;text-decoration:none;font-weight:500;">Контакты</a>
+  </nav>
+</header>
+
+<!-- 🔹 Скрываем системный заголовок GitHub Pages -->
+<style>
+  h1:first-of-type, header + h1, .navbar a[href*="cfr-site"] {
+    display: none !important;
+  }
+</style>
   <div class="container">
     <header>
       <div class="brand">
